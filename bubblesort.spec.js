@@ -1,6 +1,4 @@
-console.log("****")
-
-describe('Bubble Sort', function(){
+describe('bubbleSort', function(){
 
     let sortedArray;
 
@@ -17,7 +15,7 @@ describe('Bubble Sort', function(){
     });
 
     it ('handles an array of one element', function(){
-        expect( bubbleSort([5])).toEqual([5]); 
+        expect( bubbleSort([5])).toEqual([5]);
     })
 
     it('handles an array of multiple elements', function(){
